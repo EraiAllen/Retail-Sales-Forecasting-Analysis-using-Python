@@ -4,7 +4,7 @@ import numpy as np
 print("-"*50)
 print("\n 1.Data Cleaning")
 
-df=pd.read_csv(r'C:\Users\ERAI ALLEN\Downloads\retail_sales.csv')
+df=pd.read_csv("retail_sales.csv")
 print(df.head())
 
 print("\n[1.1] MISSING VALUES")
@@ -283,9 +283,7 @@ plt.show()
 
 df.to_csv("forecasting sales.csv", index=False)
 
-import os
 
-print(os.getcwd())
 
 
 
